@@ -33,7 +33,5 @@ Put an x in the boxes that apply. You can also include additional information un
 
 - [ ] This pull request includes tests that cover the changes made.
 - [ ] This pull request does not break any existing functionality.
-- [ ] This pull request follows the style guide enforced by the organization.
 - [ ] This pull request includes updates to relevant documentation affected by the changes made, if applicable.
 - [ ] This pull request has been tested locally and on a remote environment.
-- [ ] This pull request has been reviewed by at least one other team member.
