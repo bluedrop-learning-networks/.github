@@ -28,7 +28,7 @@ We should be actively trying to break our work! Try to think of use cases that m
 
 Put an x in the boxes that apply. You can also include additional information under the boxes.
 
-- [ ] This pull request includes tests that cover the changes made.
-- [ ] This pull request has been tested locally and on a remote environment.
-- [ ] This pull request does not break any existing functionality.
-- [ ] This pull request includes updates to relevant documentation affected by the changes made, if applicable.
+- [ ] This PR includes tests that cover the changes made.
+- [ ] This PR has been tested locally and on a remote environment.
+- [ ] This PR does not break any existing functionality.
+- [ ] This PR includes updates to relevant documentation affected by the changes made, if applicable.
