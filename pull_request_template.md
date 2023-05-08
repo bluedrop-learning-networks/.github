@@ -20,10 +20,9 @@ Include any additional information that is relevant or helpful to review this pu
 
 ## Testing
 
-This section should include thorough instructions for the person that is QC testing your PR. A person who has never used
-our platform should be able to follow your instructions and perform the tests.
+This section should include thorough instructions for the person that is QC testing your PR.
 
-We should be actively trying to break our work! Try to think of use cases that would break your current implementation.
+We should be actively trying to break our work! Try to think of use cases that may break your implementation.
 
 ### Expected output/results
 
