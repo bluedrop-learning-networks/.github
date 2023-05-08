@@ -14,6 +14,10 @@ Explain the purpose of this pull request and give a brief description of the cha
 
 Add any relevant images or animations that show the changes made.
 
+## Additional Notes
+
+Include any additional information that is relevant or helpful to review this pull request effectively.
+
 ## Testing
 
 This section should include thorough instructions for the person that is QC testing your PR. A person who has never used
@@ -23,15 +27,11 @@ We should be actively trying to break our work! Try to think of use cases that w
 
 ### Expected output/results
 
-## Additional Notes
-
-Include any additional information that is relevant or helpful to review this pull request effectively.
-
 ## Checklist
 
 Put an x in the boxes that apply. You can also include additional information under the boxes.
 
 - [ ] This pull request includes tests that cover the changes made.
+- [ ] This pull request has been tested locally and on a remote environment.
 - [ ] This pull request does not break any existing functionality.
 - [ ] This pull request includes updates to relevant documentation affected by the changes made, if applicable.
-- [ ] This pull request has been tested locally and on a remote environment.
