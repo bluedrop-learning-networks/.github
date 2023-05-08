@@ -18,13 +18,11 @@ Add any relevant images or animations that show the changes made.
 
 Include any additional information that is relevant or helpful to review this pull request effectively.
 
-## Testing
+## How to Test
 
 This section should include thorough instructions for the person that is QC testing your PR.
 
 We should be actively trying to break our work! Try to think of use cases that may break your implementation.
-
-### Expected output/results
 
 ## Checklist
 
