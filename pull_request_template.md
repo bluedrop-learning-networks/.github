@@ -7,8 +7,11 @@ Explain the purpose of this pull request and give a brief description of the cha
  - What is being modified or created?
     - ex. Modify public FIND /classes to return the number of available seats in the class
     - ex. Add a date range selector UI component
- - Any PRs associated with this one
+ - Any dependent PRs associated with this one
+ - Current behaviour/expected behaviour (if this is a bug fix)
  - How do the changes in this PR affect the overall security of the system? (if applicable)
+
+(Delete any sections below that are not relevant).
 
 ## Screenshots/GIFs
 
@@ -26,9 +29,9 @@ We should be actively trying to break our work! Try to think of use cases that m
 
 ## Checklist
 
-Put an x in the boxes that apply. You can also include additional information under the boxes.
+- [ ] I have tested this PR locally or on a remote environment.
+- [ ] I have added necessary documentation (if appropriate).
+- [ ] I have checked my code and corrected any misspellings.
 
-- [ ] This PR includes tests that cover the changes made.
-- [ ] This PR has been tested locally and on a remote environment.
-- [ ] This PR does not break any existing functionality.
-- [ ] This PR includes updates to relevant documentation affected by the changes made, if applicable.
+- [ ] No dependent changes are required to be merged or published, or
+- [ ] Any dependent changes have been merged and published.
