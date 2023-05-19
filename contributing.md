@@ -31,7 +31,7 @@ issues.
 
 We use Jira for issue management. You can find our Jira board at `bluedrop360.atlassian.net`. This is where your tasks
 will be assigned and where work should be planned out. If you encounter a bug, please create a new issue on Jira,
-providing a clear description and any relevant details. Make sure to check for existing issues to avoid duplicates.
+providing a clear description and any relevant details.
 
 ## Making Changes
 
@@ -51,8 +51,8 @@ project's documentation or ask for guidance from the team.
 - Authors are responsible for their own code and ultimately for merging their own code.
 - Generally, at least one approving review is required to merge code. Pull requests containing user-facing functional
   changes require an approving QC review.
-- Dismiss stale reviews is disabled to allow addressing optional, non-blocking comments on a PR without incurring
-  another round of review. Please refrain from introducing substantive or unrelated changes to a branch after a PR has
+- The "dismiss stale reviews" setting is disabled to allow addressing optional, non-blocking comments on a PR without incurring
+  another round of review. Please avoid from introducing substantive or unrelated changes to a branch after a PR has
   been approved.
 
 ### For the Author:
@@ -65,6 +65,7 @@ project's documentation or ask for guidance from the team.
 - When your pull request is ready for review (i.e., GitHub Actions checks are passing, and all pre-review checklist
   items are completed), select 1-2 reviewers who are most familiar with the project or issue.
 - If a pull request is a work in progress, set it as a draft pull request.
+- After merging or closing your PR, make sure to delete the associated branch.
 
 ### For the Reviewer:
 
@@ -76,8 +77,8 @@ project's documentation or ask for guidance from the team.
   now or later. If your review contains blocking comments, choose the "request changes" option.
 - With regard to code conventions, if it isn't enforced using static analysis in a GitHub Action (e.g., using eslint or
   prettier), consider its importance. If it's important enough, consider writing an eslint rule.
-- Pull requests are not the only way to conduct code reviews. Consider doing pair reviews when the situation warrants
-  it, such as when working on complex features or when a team member needs guidance on a specific topic.
+- **Pull requests are not the only way to conduct code reviews. Consider doing pair reviews when the situation warrants
+  it, such as when working on complex features or when a team member needs guidance on a specific topic.**
 
 ## Testing
 
