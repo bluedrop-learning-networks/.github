@@ -82,7 +82,13 @@ project's documentation or ask for guidance from the team.
 - Provide explicit approval or disapproval with clear reasons.
 - Distinguish between blocking and non-blocking comments on code reviews. Blocking comments are those that require
   changes before the PR can be merged, while non-blocking comments are suggestions or improvements that may be addressed
-  now or later. If your review contains blocking comments, choose the "request changes" option.
+  now or later. For example:
+
+    - Blocking: This is a critical workflow that is untested. Please write some tests for this.
+    - Nit: it would make sense for readability to define this variable closer to where it is used.
+
+  If your review contains blocking comments, choose the "request changes" option.
+
 - With regard to code conventions, if it isn't enforced using static analysis in a GitHub Action (e.g., using eslint or
   prettier), consider its importance. If it's important enough, consider writing an eslint rule.
 - **Pull requests are not the only way to conduct code reviews. Consider doing pair reviews when the situation warrants
