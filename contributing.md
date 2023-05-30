@@ -29,9 +29,13 @@ issues.
 
 ## Issues
 
-We use Jira for issue management. You can find our Jira board at `bluedrop360.atlassian.net`. This is where your tasks
-will be assigned and where work should be planned out. If you encounter a bug, please create a new issue on Jira,
+We primarily use Jira for issue management. You can find our Jira board at `bluedrop360.atlassian.net`. This is where
+tasks will be assigned and where work should be planned out. If you encounter a bug, please create a new issue on Jira,
 providing a clear description and any relevant details.
+
+Sometimes, it makes sense to create Github issues directly on a repository. For example, issues related to out-of-date
+or vulnerable dependencies should be added directly to a the repository; as well as similar repository-scoped technical
+debt. 
 
 ## Making Changes
 
@@ -65,6 +69,10 @@ project's documentation or ask for guidance from the team.
 - When your pull request is ready for review (i.e., GitHub Actions checks are passing, and all pre-review checklist
   items are completed), select 1-2 reviewers who are most familiar with the project or issue.
 - If a pull request is a work in progress, set it as a draft pull request.
+- After you have requested review, it is preferable not to rebase, but rather to address feedback with additional
+  commits, so that code changes since the code was last reviewed are apparent on the PR.
+- Our preferred strategy for merging PRs is a squash commit, so that commits on the master branch map to a clear unit of
+  work, usually a Jira issue.
 - After merging or closing your PR, make sure to delete the associated branch.
 
 ### For the Reviewer:
