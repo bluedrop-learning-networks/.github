@@ -1,4 +1,4 @@
-JIRA: {{jira ticket number}}
+# JIRA: [jira ticket number]
 
 ## Description
 
