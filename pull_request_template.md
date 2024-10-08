@@ -29,7 +29,10 @@ We should be actively trying to break our work! Try to think of use cases that m
 
 ## Checklist
 
+(Strike through any that are not applicable).
+
 - [ ] I have tested this PR locally or on a remote environment.
+- [ ] I have added/updated translations in all supported languages.
 - [ ] I have added necessary documentation (if appropriate).
 - [ ] I have checked my code and corrected any misspellings.
 - [ ] No dependent changes are required to be merged or published, or
